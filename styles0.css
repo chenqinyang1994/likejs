@@ -1,0 +1,109 @@
+/**
+ *
+ * Hey！我是陈钦洋
+ *
+ * 我是猎豹移动(CMCM)的前端攻城狮
+ *
+ * 接各种前端开发工作
+ *
+ * 现场编码怎么样？
+ */
+
+/**
+ * 我们开始吧~
+ *
+ * 我们首先制作动画...
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ * 目前看好像没啥作用呢？往后看吧
+ *
+ * 白底黑字很无聊啊
+ * 让我们来做一些处理
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/***
+ * 继续...
+ */
+
+pre, a {
+  color: white;
+}
+
+/**
+ * 现在看起来好一些了，之前有点对不起你的眼睛，哈哈哈~
+ *
+ * 但是还是有很大的空白，在这里写代码不咋爽
+ *
+ * 我来提供一个不错的coding区域
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 45vh;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 1vh 0.5vw;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+  margin: 1vh 0.5vw;
+}
+
+/**
+ * Ok 我们将开始填充屏幕
+ * 先做一些准备工作~
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * 这还行，但所有文字都是白色！
+ * 我们来让它更具可读性
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ * 现在我们有点进展了
+ * 是时候换个角度看了
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 93.1vh;
+}
+
+/**
+ * 所以，让我们来谈谈项目。这就是你来这里的原因，对吧？
+ * (你不能只是为了看这些美丽的色彩吧？哈哈哈哈哈~~~)
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}

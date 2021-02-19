@@ -1,0 +1,27 @@
+
+/**
+ * 左边的markdown看起来不太舒服 让我们处理一下
+ */
+
+#work-text.flipped {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+#work-text .md {
+  -webkit-transform: rotateY(190deg) rotateZ(180deg);
+  margin-top: 800px;
+}
+
+/**
+ * Alright. We're ready.
+ *
+ * 3...
+ * 2...
+ * 1...
+ *
+ * .
+ * ....咋还没有呢？
+ *
+ * 它来了它来了！它带着style走来了！
+ *
+ */

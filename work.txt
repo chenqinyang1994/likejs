@@ -1,0 +1,26 @@
+likejs.cn
+=========
+
+Chen Qinyang
+FE development engineer, CMCM
+Full-Stack / NodeJS
+
+Contact
+-------
+
+* at cmcm.com
+* email at cqy6688@163.com
+* WeChat to CHEN_vampire
+
+Projects
+--------
+
+* www.cmcm.com
+* www.openmall.cmcm.com
+and of course...
+* www.likejs.cn
+
+Photos
+------
+
+* [it`s me](/img/qinyang.jpg)

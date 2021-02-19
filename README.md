@@ -1,22 +1,22 @@
-# likejs
+likejs.cn
+=========
 
-## Getting Start
+[View Site](http://www.likejs.cn)
 
-```
+Building
+--------
+
+```bash
 git clone git@github.com:chenqinyang1994/likejs.git
 cd likejs
 npm install
+npm run dev
+# Open localhost:4003/index-dev.html in your browser
 ```
 
-## Npm scripts
+Building for Production
+--------
 
 ```bash
-$ npm run start # 本地调试模式, 开启之后对于 /src 目录内的任何改动会自动热替换生效
-$ npm run build # build
-```
-
-## 技术栈
-
-```bash
-create-react-ap
+npm run build
 ```
